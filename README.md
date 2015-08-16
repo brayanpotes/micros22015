@@ -1,2 +1,2 @@
 # micros22015
-Ejercicio Git
+Repositorio para el espacio académico Microprocesadores 2-2015
