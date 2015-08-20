@@ -3,8 +3,6 @@
 void showRegisters(uint32_t *registers, size_t len)
 {
 	int i;
-	
-	HANDLE hCon=GetStdHandle(STD_OUTPUT_HANDLE);
 
 	if(!registers)
 		return;
@@ -13,12 +11,10 @@ void showRegisters(uint32_t *registers, size_t len)
 	{	
 		if( (i % 4) == 0 )
 			printf("\n");
-		SetConsoleTextAttribute(hCon,GREEN);
-		printf("R%-2d:", i);
-		SetConsoleTextAttribute(hCon,WHITE);
-		printf("%.8X\t", registers[i]);
+		printf(BOLDGREEN "R%-2d:" BOLDWHITE "%.8X\t", i, registers[i]);
 	}
 	printf("\n");
-	
+	printf(RESET);
+
 	return;
 }

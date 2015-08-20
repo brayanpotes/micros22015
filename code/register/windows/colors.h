@@ -1,22 +1,22 @@
 #ifndef	_COLORS_H_
 #define	_COLORS_H_
 
-#define RESET   "\033[0m"
-#define BLACK   "\033[30m"      /* Black */
-#define RED     "\033[31m"      /* Red */
-#define GREEN   "\033[32m"      /* Green */
-#define YELLOW  "\033[33m"      /* Yellow */
-#define BLUE    "\033[34m"      /* Blue */
-#define MAGENTA "\033[35m"      /* Magenta */
-#define CYAN    "\033[36m"      /* Cyan */
-#define WHITE   "\033[37m"      /* White */
-#define BOLDBLACK   "\033[1m\033[30m"      /* Bold Black */
-#define BOLDRED     "\033[1m\033[31m"      /* Bold Red */
-#define BOLDGREEN   "\033[1m\033[32m"      /* Bold Green */
-#define BOLDYELLOW  "\033[1m\033[33m"      /* Bold Yellow */
-#define BOLDBLUE    "\033[1m\033[34m"      /* Bold Blue */
-#define BOLDMAGENTA "\033[1m\033[35m"      /* Bold Magenta */
-#define BOLDCYAN    "\033[1m\033[36m"      /* Bold Cyan */
-#define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
+#define BLACK   		0      /* Black */
+#define BLUE    		1      /* Blue */
+#define GREEN   		2      /* Green */
+#define AQUA   			3      /* Aqua */
+#define RED     		4      /* Red */
+#define PURPLE			5      /* Purple */
+#define YELLOW  		6      /* Yellow */
+#define WHITE   		7      /* White */
+#define GRAY 			8      /* Gray */
+#define LIGHT_BLUE		9      /* Light Blue */
+#define LIGHT_GREEN		A      /* Light Green */
+#define LIGHT_AQUA		B      /* Light Aqua */
+#define LIGHT_RED		C      /* Light Red */
+#define LIGHT_PURPLE	D      /* Light Purple */
+#define LIGHT_YELLOW	E      /* Light Yellow */
+#define BRIGHT_WHITE	F      /* Bright White */
+
 
 #endif	/* _COLORS_H_ */
